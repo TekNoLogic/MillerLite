@@ -1,0 +1,22 @@
+## Interface: 30000
+
+## Title: Miller Lite
+## Notes: Adds a frame to the AH for fast crafting mat lookup
+## Author: Tekkub Stoutwrithe
+## Version: Alpha
+## X-Website: http://code.google.com/p/tekkub-wow/
+## X-Email: tekkub-wow@googlegroups.com
+## X-Category: Tradeskills
+
+## OptionalDeps: tekDebug
+
+## LoadOnDemand: 1
+## LoadWith: Blizzard_AuctionUI
+
+LibStub.lua
+tekKonfigButton.lua
+tekIDmemo.lua
+
+MillerLite.lua
+ButtonFactory.lua
+Milling.lua
