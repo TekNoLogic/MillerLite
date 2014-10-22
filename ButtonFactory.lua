@@ -34,7 +34,7 @@ end
 
 local function OnEvent(self)
 	if not self.id then return end
-	local count = GetItemCount(self.id)
+	local count = GetItemCount(self.id, true)
 	self.count:SetText(count > 0 and count or "")
 	if self.text then self.text:SetText(GS(GetAuctionBuyout and GetAuctionBuyout(self.id))) end
 end
