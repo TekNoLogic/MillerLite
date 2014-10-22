@@ -76,7 +76,11 @@ function ns.ButtonFactory(parent, id, ...)
 
 	if id then
 		f:SetAttribute("type", "macro")
-		f:SetAttribute("macrotext", "/run BrowseName:SetText((GetItemInfo("..id.."))); AuctionFrameBrowse_Search()")
+		local macrotext = "/run "..
+		                  "ExactMatchCheckButton:SetChecked(true); "..
+		                  "BrowseName:SetText((GetItemInfo("..id.."))); "..
+		                  "AuctionFrameBrowse_Search()"
+		f:SetAttribute("macrotext", macrotext)
 	end
 
 	OnShow(f)
