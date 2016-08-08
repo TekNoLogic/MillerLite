@@ -99,6 +99,15 @@ local ench_butt = panel_factory("Ench", [[
 ]], AuctionFrameBrowse, "RIGHT", in2_butt, "LEFT", -2, 0)
 
 
+local elem_butt = panel_factory("Elem", [[
+  113261 113262 113263 113264
+   52325  52326  52327  52328 52329
+   36860  35622  35624  35623 35625 35627
+	 21884  21885  22452  22451 21886 22456 22457
+	  7078   7080   7076   7082 12803 12808
+]], AuctionFrameBrowse, "RIGHT", ench_butt, "LEFT", -2, 0)
+
+
 local fish_butt = panel_factory("Fish", [[
 	109137 111589 111595 111601    0      0      0   109123 109226
 	109142 111658 111665 111672 110292    0   111439 109223 111603
@@ -108,7 +117,7 @@ local fish_butt = panel_factory("Fish", [[
 	109141 111656 111666 111673 110291 112628 111445 118704 116981
 	109143 111659 111664 111671 110293 112627 111441 116271 109218
   109144 111662 111663 111670 110294 112626 116266 109222 116979
-]], AuctionFrameBrowse, "RIGHT", ench_butt, "LEFT", -2, 0)
+]], AuctionFrameBrowse, "RIGHT", elem_butt, "LEFT", -2, 0)
 
 
 local butt_wod = panel_factory("WoD", [[
