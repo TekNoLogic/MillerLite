@@ -31,3 +31,4 @@ panels/wrath.lua
 panels/cat.lua
 panels/mop.lua
 panels/wod.lua
+panels/legion.lua
