@@ -4,8 +4,6 @@
 ## Notes: Adds a frame to the AH for fast crafting mat lookup
 ## Author: Tekkub Stoutwrithe
 ## Version: Alpha
-## X-Website: http://code.google.com/p/tekkub-wow/
-## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Tradeskills
 
 ## OptionalDeps: tekDebug
@@ -17,6 +15,19 @@ LibStub.lua
 tekKonfigButton.lua
 tekIDmemo.lua
 
-MillerLite.lua
-ButtonFactory.lua
-Milling.lua
+GetAuctionBuyout.lua
+
+## ButtonFactory.lua
+## Milling.lua
+
+AuctionButton.lua
+Button.lua
+PanelRow.lua
+Panel.lua
+
+panels/classic.lua
+panels/bc.lua
+panels/wrath.lua
+panels/cat.lua
+panels/mop.lua
+panels/wod.lua
