@@ -15,7 +15,7 @@ local BACKDROP = {
 function ns.NewPanel(buttname, itemids)
 	local f = CreateFrame("Frame", nil, AuctionFrameBrowse)
 	f:SetPoint("TOP", 0, -21)
-	f:SetPoint("BOTTOM", 0, 21)
+	f:SetPoint("BOTTOM", 0, 18)
 	f:SetPoint("LEFT", AuctionFrameBrowse, "RIGHT", 65, 0)
 	f:Hide()
 
